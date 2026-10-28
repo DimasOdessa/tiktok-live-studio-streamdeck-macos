@@ -1,0 +1,49 @@
+Changes from the supplied TikTok LIVE Studio 1.1.5 Windows package
+
+Original SHA-256:
+20c6362e586d26df87f273d3da0bf237e54c2956830ef2d3630fb8b09bf7c23a
+
+manifest.json:
+* macOS 13.0+ platform, Stream Deck 6.4+ baseline, version 1.1.5.1.
+* Explicit plugin UUID com.tiktok.livestudio (same identity as original folder).
+* macOS application monitoring: com.tiktok.livestudio.desktop.
+* Name/category indicate macOS; description indicates unofficial adaptation.
+* Fixed MicControl action UUID to miccontrol, matching plugin.js, pi.js and
+  the macOS Studio action registry.
+* Removed obsolete DialRotateEnabled, DialPressEnabled and CustomLayout fields;
+  retained Controllers and Encoder.layout declarations for both dial actions.
+
+Locale JSON files:
+* Updated plugin name, category and description consistently.
+* Preserved original action translations and author attribution.
+
+macos-auth.js (new):
+* Obtains a fresh optional token from Studio's local /token endpoint for every
+  Socket.IO connection. The original WebSocket subprotocol remains enabled.
+* Uses only the original seven loopback ports, with a 1200 ms request timeout.
+* Falls back to empty Socket.IO auth for older servers without /token support.
+* Does not bypass Studio authentication or its hardware detection.
+* No token persistence or logging.
+
+plugin.html:
+* Loads macos-auth.js before the original plugin bundle.
+
+plugin.js:
+* Added auth callback to original Socket.IO options:
+  auth:function(callback){window.ttlsMacAuth(o,callback)}
+* All other original JavaScript behavior is unchanged.
+
+assets/images/audiocontrol/:
+* Added missing icon.png and icon@2x.png using original audio/icon resources.
+
+Verification on 2026-10-28:
+* Static manifest/resource checks: PASS.
+* Token success, HTTP refusal, invalid JSON, timeout, network error, synchronous
+  request error and unknown-port rejection: PASS.
+* Complete bundle with simulated legacy/token Studio server: PASS.
+* Real complete bundle against installed macOS Studio 1.38.0: PASS for connection,
+  room join, settings synchronization; four scenes reported.
+* Real action dispatch and Stream Deck host/device installation: not tested.
+
+Documentation reference for manifest platform/application monitoring fields:
+https://docs.elgato.com/streamdeck/sdk/references/manifest/

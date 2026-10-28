@@ -1,0 +1,443 @@
+{
+  "$schema": "https://schemas.elgato.com/streamdeck/plugins/manifest.json",
+  "Name": "TikTok LIVE Studio (macOS)",
+  "Description": "Unofficial macOS adaptation of the TikTok LIVE Studio Stream Deck plugin 1.1.5.",
+  "Author": "TikTok LIVE Studio",
+  "URL": "https://www.elgato.com/en/gaming/stream-deck",
+  "Version": "1.1.5.1",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "6.4"
+  },
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "13.0"
+    }
+  ],
+  "CodePath": "plugin.html",
+  "PropertyInspectorPath": "pi.html",
+  "Category": "TikTok LIVE Studio (macOS)",
+  "CategoryIcon": "assets/images/logo",
+  "Icon": "assets/images/logo",
+  "Profiles": [],
+  "DefaultWindowSize": [
+    500,
+    650
+  ],
+  "ApplicationsToMonitor": {
+    "mac": [
+      "com.tiktok.livestudio.desktop"
+    ]
+  },
+  "Actions": [
+    {
+      "Name": "Go / end LIVE",
+      "Tooltip": "Go / end LIVE",
+      "Icon": "assets/images/live_start_end/icon",
+      "UUID": "com.tiktok.livestudio.livestartend",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/live_start_end/off"
+        },
+        {
+          "Image": "assets/images/live_start_end/on"
+        }
+      ]
+    },
+    {
+      "Name": "Pause / resume LIVE",
+      "Tooltip": "Pause / resume LIVE",
+      "Icon": "assets/images/live_pause_resume/icon",
+      "UUID": "com.tiktok.livestudio.livepauseresume",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/live_pause_resume/off"
+        },
+        {
+          "Image": "assets/images/live_pause_resume/on"
+        }
+      ]
+    },
+    {
+      "Name": "Start / stop local recording",
+      "Tooltip": "Start / stop local recording",
+      "Icon": "assets/images/recording/icon",
+      "UUID": "com.tiktok.livestudio.recording",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/recording/off"
+        },
+        {
+          "Image": "assets/images/recording/on"
+        }
+      ]
+    },
+    {
+      "Name": "Highlight this moment",
+      "Tooltip": "Highlight this moment",
+      "Icon": "assets/images/highlight/icon",
+      "UUID": "com.tiktok.livestudio.highlight",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/highlight/on"
+        }
+      ]
+    },
+    {
+      "Name": "Mute / unmute microphone",
+      "Tooltip": "Mute / unmute microphone",
+      "Icon": "assets/images/mic/icon",
+      "UUID": "com.tiktok.livestudio.mic",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/mic/off"
+        },
+        {
+          "Image": "assets/images/mic/on"
+        }
+      ]
+    },
+    {
+      "Name": "Mute / unmute audio output",
+      "Tooltip": "Mute / unmute audio output",
+      "Icon": "assets/images/audio/icon",
+      "UUID": "com.tiktok.livestudio.audio",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/audio/mute"
+        },
+        {
+          "Image": "assets/images/audio/unmute"
+        }
+      ]
+    },
+    {
+      "Name": "Switch scene",
+      "Tooltip": "Switch scene",
+      "Icon": "assets/images/scene/icon",
+      "UUID": "com.tiktok.livestudio.scene",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/scene/off"
+        },
+        {
+          "Image": "assets/images/scene/on"
+        }
+      ]
+    },
+    {
+      "Name": "Show / hide source",
+      "Tooltip": "Show / hide source",
+      "Icon": "assets/images/source/icon",
+      "UUID": "com.tiktok.livestudio.source",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/source/off"
+        },
+        {
+          "Image": "assets/images/source/on"
+        }
+      ]
+    },
+    {
+      "Name": "Dynamic effects",
+      "Tooltip": "Dynamic effects",
+      "Icon": "assets/images/vibe/icon",
+      "UUID": "com.tiktok.livestudio.vibe",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/vibe/off"
+        },
+        {
+          "Image": "assets/images/vibe/on"
+        }
+      ]
+    },
+    {
+      "Name": "Say hi to viewers",
+      "Tooltip": "Say hi to viewers",
+      "Icon": "assets/images/sayhi/icon",
+      "UUID": "com.tiktok.livestudio.sayhi",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/sayhi/on"
+        }
+      ]
+    },
+    {
+      "Name": "Play sound effect",
+      "Tooltip": "Play sound effect",
+      "Icon": "assets/images/soundeffect/icon",
+      "UUID": "com.tiktok.livestudio.soundeffect",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/soundeffect/off"
+        },
+        {
+          "Image": "assets/images/soundeffect/on"
+        }
+      ]
+    },
+    {
+      "Name": "Turn on / off audio effect",
+      "Tooltip": "Turn on / off audio effect",
+      "Icon": "assets/images/audio_filter/icon",
+      "UUID": "com.tiktok.livestudio.audiofilter",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/audio_filter/off"
+        },
+        {
+          "Image": "assets/images/audio_filter/on"
+        }
+      ]
+    },
+    {
+      "Name": "Turn on / off camera effect",
+      "Tooltip": "Turn on / off camera effect",
+      "Icon": "assets/images/camerae/icon",
+      "UUID": "com.tiktok.livestudio.cameraeffects",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/camerae/off"
+        },
+        {
+          "Image": "assets/images/camerae/on"
+        }
+      ]
+    },
+    {
+      "Name": "Open \"Co-host\"",
+      "Tooltip": "Open \"Co-host\"",
+      "Icon": "assets/images/cohost/icon",
+      "UUID": "com.tiktok.livestudio.cohost",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/cohost/on"
+        }
+      ]
+    },
+    {
+      "Name": "Open \"Treasure Box\"",
+      "Tooltip": "Open \"Treasure Box\"",
+      "Icon": "assets/images/treasurebox/icon",
+      "UUID": "com.tiktok.livestudio.treasurebox",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/treasurebox/on"
+        }
+      ]
+    },
+    {
+      "Name": "Open \"Guessing game\"",
+      "Tooltip": "Open \"Guessing game\"",
+      "Icon": "assets/images/guessgame/icon",
+      "UUID": "com.tiktok.livestudio.guessgame",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/guessgame/on"
+        }
+      ]
+    },
+    {
+      "Name": "Open \"Play Together\"",
+      "Tooltip": "Open \"Play Together\"",
+      "Icon": "assets/images/playtogether/icon",
+      "UUID": "com.tiktok.livestudio.playtogether",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/playtogether/on"
+        }
+      ]
+    },
+    {
+      "Name": "Open \"Goody Bag\"",
+      "Tooltip": "Open \"Goody Bag\"",
+      "Icon": "assets/images/goodybag/icon",
+      "UUID": "com.tiktok.livestudio.goodybag",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/goodybag/on"
+        }
+      ]
+    },
+    {
+      "Name": "Open \"Poll & Gift vote\"",
+      "Tooltip": "Open \"Poll & Gift vote\"",
+      "Icon": "assets/images/vote/icon",
+      "UUID": "com.tiktok.livestudio.vote",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/vote/on"
+        }
+      ]
+    },
+    {
+      "Name": "Open \"LIVE goal\"",
+      "Tooltip": "Open \"LIVE goal\"",
+      "Icon": "assets/images/livegoal/icon",
+      "UUID": "com.tiktok.livestudio.livegoal",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/livegoal/on"
+        }
+      ]
+    },
+    {
+      "Name": "Open \"Multi-guest\"",
+      "Tooltip": "Open \"Multi-guest\"",
+      "Icon": "assets/images/multiguest/icon",
+      "UUID": "com.tiktok.livestudio.multiguest",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/multiguest/on"
+        }
+      ]
+    },
+    {
+      "Name": "Open \"Team\"",
+      "Tooltip": "Open \"Team\"",
+      "Icon": "assets/images/team/icon",
+      "UUID": "com.tiktok.livestudio.team",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/team/on"
+        }
+      ]
+    },
+    {
+      "Name": "Open \"Game Rewards\"",
+      "Tooltip": "Open \"Game Rewards\"",
+      "Icon": "assets/images/gamepad/icon",
+      "UUID": "com.tiktok.livestudio.gamepad",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/gamepad/on"
+        }
+      ]
+    },
+    {
+      "Name": "Open \"Promote\"",
+      "Tooltip": "Open \"Promote\"",
+      "Icon": "assets/images/promote/icon",
+      "UUID": "com.tiktok.livestudio.promote",
+      "SupportedInMultiActions": true,
+      "DisableAutomaticStates": true,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/promote/on"
+        }
+      ]
+    },
+    {
+      "Name": "Open \"MicControl\"",
+      "Tooltip": "Open \"MicControl\"",
+      "Icon": "assets/images/miccontrol/icon",
+      "UUID": "com.tiktok.livestudio.miccontrol",
+      "Controllers": [
+        "Encoder"
+      ],
+      "Encoder": {
+        "layout": "$B1"
+      },
+      "SupportedInMultiActions": false,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/miccontrol/on"
+        }
+      ]
+    },
+    {
+      "Name": "Open \"AudioControl\"",
+      "Tooltip": "Open \"AudioControl\"",
+      "Icon": "assets/images/audiocontrol/icon",
+      "UUID": "com.tiktok.livestudio.audiocontrol",
+      "Controllers": [
+        "Encoder"
+      ],
+      "Encoder": {
+        "layout": "$B1"
+      },
+      "SupportedInMultiActions": false,
+      "VisibleInActionsList": true,
+      "States": [
+        {
+          "Image": "assets/images/audiocontrol/on"
+        }
+      ]
+    }
+  ],
+  "UUID": "com.tiktok.livestudio"
+}

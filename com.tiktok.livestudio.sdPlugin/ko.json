@@ -1,0 +1,126 @@
+{
+  "Name": "TikTok LIVE Studio (macOS)",
+  "Description": "Unofficial macOS adaptation of the TikTok LIVE Studio Stream Deck plugin 1.1.5.",
+  "Author": "TikTok LIVE Studio",
+  "Category": "TikTok LIVE Studio (macOS)",
+  "com.tiktok.livestudio.scene": {
+    "Name": "장면 전환",
+    "Tooltip": "장면 전환"
+  },
+  "com.tiktok.livestudio.source": {
+    "Name": "소스 표시/숨기기",
+    "Tooltip": "소스 표시/숨기기"
+  },
+  "com.tiktok.livestudio.livestartend": {
+    "Name": "라이브 시작/종료",
+    "Tooltip": "라이브 시작/종료"
+  },
+  "com.tiktok.livestudio.audio": {
+    "Name": "오디오 출력 음소거/음소거 해제",
+    "Tooltip": "오디오 출력 음소거/음소거 해제"
+  },
+  "com.tiktok.livestudio.mic": {
+    "Name": "마이크 음소거/음소거 해제",
+    "Tooltip": "마이크 음소거/음소거 해제"
+  },
+  "com.tiktok.livestudio.recording": {
+    "Name": "로컬 녹화 시작/중지",
+    "Tooltip": "로컬 녹화 시작/중지"
+  },
+  "com.tiktok.livestudio.livepauseresume": {
+    "Name": "라이브 일시 중지/재개",
+    "Tooltip": "라이브 일시 중지/재개"
+  },
+  "com.tiktok.livestudio.highlight": {
+    "Name": "하이라이트 순간",
+    "Tooltip": "하이라이트 순간"
+  },
+  "com.tiktok.livestudio.filter": {
+    "Name": "오디오 편집효과 템플릿 켜기/끄기",
+    "Tooltip": "오디오 편집효과 템플릿 켜기/끄기"
+  },
+  "com.tiktok.livestudio.equalizer": {
+    "Name": "이퀄라이저 켜기/끄기",
+    "Tooltip": "이퀄라이저 켜기/끄기"
+  },
+  "com.tiktok.livestudio.reverberation": {
+    "Name": "반향 켜기/끄기",
+    "Tooltip": "반향 켜기/끄기"
+  },
+  "com.tiktok.livestudio.gamepad": {
+    "Name": "\"게임 리워드\" 열기",
+    "Tooltip": "\"게임 리워드\" 열기"
+  },
+  "com.tiktok.livestudio.vote": {
+    "Name": "\"투표 및 선물 투표\" 열기",
+    "Tooltip": "\"투표 및 선물 투표\" 열기"
+  },
+  "com.tiktok.livestudio.promote": {
+    "Name": "\"프로모션\" 열기",
+    "Tooltip": "\"프로모션\" 열기"
+  },
+  "com.tiktok.livestudio.sayhi": {
+    "Name": "시청자에게 인사하기",
+    "Tooltip": "시청자에게 인사하기"
+  },
+  "com.tiktok.livestudio.soundeffect": {
+    "Name": "사운드 편집효과 재생",
+    "Tooltip": "사운드 편집효과 재생"
+  },
+  "com.tiktok.livestudio.audiofilter": {
+    "Name": "오디오 편집효과 켜기/끄기",
+    "Tooltip": "오디오 편집효과 켜기/끄기"
+  },
+  "com.tiktok.livestudio.cameraeffects": {
+    "Name": "카메라 편집효과 켜기/끄기",
+    "Tooltip": "카메라 편집효과 켜기/끄기"
+  },
+  "com.tiktok.livestudio.audiocontrol": {
+    "Name": "오디오 출력 볼륨 조정",
+    "Tooltip": "오디오 출력 볼륨 조정"
+  },
+  "com.tiktok.livestudio.miccontrol": {
+    "Name": "마이크 볼륨 조정",
+    "Tooltip": "마이크 볼륨 조정"
+  },
+  "com.tiktok.livestudio.cohost": {
+    "Name": "\"합방 호스트\" 열기",
+    "Tooltip": "\"합방 호스트\" 열기"
+  },
+  "com.tiktok.livestudio.treasurebox": {
+    "Name": "\"보물상자\" 열기",
+    "Tooltip": "\"보물상자\" 열기"
+  },
+  "com.tiktok.livestudio.playtogether": {
+    "Name": "\"플레이어 모집\" 열기",
+    "Tooltip": "\"플레이어 모집\" 열기"
+  },
+  "com.tiktok.livestudio.guessgame": {
+    "Name": "\"예측 게임\" 열기",
+    "Tooltip": "\"예측 게임\" 열기"
+  },
+  "com.tiktok.livestudio.goodybag": {
+    "Name": "\"선물 주머니\" 열기",
+    "Tooltip": "\"선물 주머니\" 열기"
+  },
+  "com.tiktok.livestudio.multiguest": {
+    "Name": "\"멀티 게스트\" 열기",
+    "Tooltip": "\"멀티 게스트\" 열기"
+  },
+  "com.tiktok.livestudio.team": {
+    "Name": "\"팀\" 열기",
+    "Tooltip": "\"팀\" 열기"
+  },
+  "com.tiktok.livestudio.livegoal": {
+    "Name": "\"라이브 목표\" 열기",
+    "Tooltip": "\"라이브 목표\" 열기"
+  },
+  "com.tiktok.livestudio.volumedial": {
+    "Name": "VolumeDial",
+    "Tooltip": "VolumeDial Action"
+  },
+  "com.tiktok.livestudio.vibe": {
+    "Name": "다이내믹 편집효과",
+    "Tooltip": "다이내믹 편집효과"
+  }
+}

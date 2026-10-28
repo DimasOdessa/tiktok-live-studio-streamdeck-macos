@@ -1,0 +1,126 @@
+{
+  "Name": "TikTok LIVE Studio (macOS)",
+  "Description": "Unofficial macOS adaptation of the TikTok LIVE Studio Stream Deck plugin 1.1.5.",
+  "Author": "TikTok LIVE Studio",
+  "Category": "TikTok LIVE Studio (macOS)",
+  "com.tiktok.livestudio.scene": {
+    "Name": "Szene wechseln",
+    "Tooltip": "Szene wechseln"
+  },
+  "com.tiktok.livestudio.source": {
+    "Name": "Quelle ein- / ausblenden",
+    "Tooltip": "Quelle ein- / ausblenden"
+  },
+  "com.tiktok.livestudio.livestartend": {
+    "Name": "LIVE gehen / beenden",
+    "Tooltip": "LIVE gehen / beenden"
+  },
+  "com.tiktok.livestudio.audio": {
+    "Name": "Audioausgabe stummschalten / Stummschaltung aufheben",
+    "Tooltip": "Audioausgabe stummschalten / Stummschaltung aufheben"
+  },
+  "com.tiktok.livestudio.mic": {
+    "Name": "Mikrofon stummschalten / Stummschaltung aufheben",
+    "Tooltip": "Mikrofon stummschalten / Stummschaltung aufheben"
+  },
+  "com.tiktok.livestudio.recording": {
+    "Name": "Lokale Aufnahme beginnen / beenden",
+    "Tooltip": "Lokale Aufnahme beginnen / beenden"
+  },
+  "com.tiktok.livestudio.livepauseresume": {
+    "Name": "LIVE anhalten / fortsetzen",
+    "Tooltip": "LIVE anhalten / fortsetzen"
+  },
+  "com.tiktok.livestudio.highlight": {
+    "Name": "Diesen Moment zum Highlight machen",
+    "Tooltip": "Diesen Moment zum Highlight machen"
+  },
+  "com.tiktok.livestudio.filter": {
+    "Name": "Audioeffektvorlage ein/aus",
+    "Tooltip": "Audioeffektvorlage ein/aus"
+  },
+  "com.tiktok.livestudio.equalizer": {
+    "Name": "Equalizer ein/aus",
+    "Tooltip": "Equalizer ein/aus"
+  },
+  "com.tiktok.livestudio.reverberation": {
+    "Name": "Hall ein/aus",
+    "Tooltip": "Hall ein/aus"
+  },
+  "com.tiktok.livestudio.gamepad": {
+    "Name": "„Spielbelohnungen“ öffnen",
+    "Tooltip": "„Spielbelohnungen“ öffnen"
+  },
+  "com.tiktok.livestudio.vote": {
+    "Name": "„Abstimmung und Geschenk-Stimme“ öffnen",
+    "Tooltip": "„Abstimmung und Geschenk-Stimme“ öffnen"
+  },
+  "com.tiktok.livestudio.promote": {
+    "Name": "„Promote“ öffnen",
+    "Tooltip": "„Promote“ öffnen"
+  },
+  "com.tiktok.livestudio.sayhi": {
+    "Name": "Zuschauer*innen „Hallo“ sagen",
+    "Tooltip": "Zuschauer*innen „Hallo“ sagen"
+  },
+  "com.tiktok.livestudio.soundeffect": {
+    "Name": "Soundeffekt wiedergeben",
+    "Tooltip": "Soundeffekt wiedergeben"
+  },
+  "com.tiktok.livestudio.audiofilter": {
+    "Name": "Audioeffekt ein- / ausschalten",
+    "Tooltip": "Audioeffekt ein- / ausschalten"
+  },
+  "com.tiktok.livestudio.cameraeffects": {
+    "Name": "Kameraeffekt ein- / ausschalten",
+    "Tooltip": "Kameraeffekt ein- / ausschalten"
+  },
+  "com.tiktok.livestudio.audiocontrol": {
+    "Name": "Lautstärke der Audioausgabe anpassen",
+    "Tooltip": "Lautstärke der Audioausgabe anpassen"
+  },
+  "com.tiktok.livestudio.miccontrol": {
+    "Name": "Mikrofonlautstärke anpassen",
+    "Tooltip": "Mikrofonlautstärke anpassen"
+  },
+  "com.tiktok.livestudio.cohost": {
+    "Name": "„Co-Host“ öffnen",
+    "Tooltip": "„Co-Host“ öffnen"
+  },
+  "com.tiktok.livestudio.treasurebox": {
+    "Name": "„Schatztruhe“ öffnen",
+    "Tooltip": "„Schatztruhe“ öffnen"
+  },
+  "com.tiktok.livestudio.playtogether": {
+    "Name": "„Zusammen spielen“ öffnen",
+    "Tooltip": "„Zusammen spielen“ öffnen"
+  },
+  "com.tiktok.livestudio.guessgame": {
+    "Name": "„Ratespiel“ öffnen",
+    "Tooltip": "„Ratespiel“ öffnen"
+  },
+  "com.tiktok.livestudio.goodybag": {
+    "Name": "„Geschenktüte“ öffnen",
+    "Tooltip": "„Geschenktüte“ öffnen"
+  },
+  "com.tiktok.livestudio.multiguest": {
+    "Name": "„Multi-Gast-LIVE“ öffnen",
+    "Tooltip": "„Multi-Gast-LIVE“ öffnen"
+  },
+  "com.tiktok.livestudio.team": {
+    "Name": "„Team“ öffnen",
+    "Tooltip": "„Team“ öffnen"
+  },
+  "com.tiktok.livestudio.livegoal": {
+    "Name": "„LIVE-Ziel“ öffnen",
+    "Tooltip": "„LIVE-Ziel“ öffnen"
+  },
+  "com.tiktok.livestudio.volumedial": {
+    "Name": "VolumeDial",
+    "Tooltip": "VolumeDial Action"
+  },
+  "com.tiktok.livestudio.vibe": {
+    "Name": "Dynamische Effekte",
+    "Tooltip": "Dynamische Effekte"
+  }
+}

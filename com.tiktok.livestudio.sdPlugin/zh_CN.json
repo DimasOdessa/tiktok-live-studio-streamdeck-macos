@@ -1,0 +1,126 @@
+{
+  "Name": "TikTok LIVE Studio (macOS)",
+  "Description": "Unofficial macOS adaptation of the TikTok LIVE Studio Stream Deck plugin 1.1.5.",
+  "Author": "TikTok LIVE Studio",
+  "Category": "TikTok LIVE Studio (macOS)",
+  "com.tiktok.livestudio.scene": {
+    "Name": "切换场景",
+    "Tooltip": "切换场景"
+  },
+  "com.tiktok.livestudio.source": {
+    "Name": "显示/隐藏源",
+    "Tooltip": "显示/隐藏源"
+  },
+  "com.tiktok.livestudio.livestartend": {
+    "Name": "开启/结束直播",
+    "Tooltip": "开启/结束直播"
+  },
+  "com.tiktok.livestudio.audio": {
+    "Name": "音频输出静音/取消静音",
+    "Tooltip": "音频输出静音/取消静音"
+  },
+  "com.tiktok.livestudio.mic": {
+    "Name": "麦克风静音/取消静音",
+    "Tooltip": "麦克风静音/取消静音"
+  },
+  "com.tiktok.livestudio.recording": {
+    "Name": "开始/停止本地录制",
+    "Tooltip": "开始/停止本地录制"
+  },
+  "com.tiktok.livestudio.livepauseresume": {
+    "Name": "暂停/继续直播",
+    "Tooltip": "暂停/继续直播"
+  },
+  "com.tiktok.livestudio.highlight": {
+    "Name": "标记精彩时刻",
+    "Tooltip": "标记精彩时刻"
+  },
+  "com.tiktok.livestudio.filter": {
+    "Name": "开启/关闭音效模板",
+    "Tooltip": "开启/关闭音效模板"
+  },
+  "com.tiktok.livestudio.equalizer": {
+    "Name": "开启/关闭均衡器",
+    "Tooltip": "开启/关闭均衡器"
+  },
+  "com.tiktok.livestudio.reverberation": {
+    "Name": "开启/关闭混响",
+    "Tooltip": "开启/关闭混响"
+  },
+  "com.tiktok.livestudio.gamepad": {
+    "Name": "打开【游戏奖励】",
+    "Tooltip": "打开【游戏奖励】"
+  },
+  "com.tiktok.livestudio.vote": {
+    "Name": "打开【投票与送礼投票】",
+    "Tooltip": "打开【投票与送礼投票】"
+  },
+  "com.tiktok.livestudio.promote": {
+    "Name": "打开【推广】",
+    "Tooltip": "打开【推广】"
+  },
+  "com.tiktok.livestudio.sayhi": {
+    "Name": "向观众打招呼",
+    "Tooltip": "向观众打招呼"
+  },
+  "com.tiktok.livestudio.soundeffect": {
+    "Name": "播放音效",
+    "Tooltip": "播放音效"
+  },
+  "com.tiktok.livestudio.audiofilter": {
+    "Name": "开启/关闭音频特效",
+    "Tooltip": "开启/关闭音频特效"
+  },
+  "com.tiktok.livestudio.cameraeffects": {
+    "Name": "开启/关闭相机特效",
+    "Tooltip": "开启/关闭相机特效"
+  },
+  "com.tiktok.livestudio.audiocontrol": {
+    "Name": "调节音频输出音量",
+    "Tooltip": "调节音频输出音量"
+  },
+  "com.tiktok.livestudio.miccontrol": {
+    "Name": "调节麦克风音量",
+    "Tooltip": "调节麦克风音量"
+  },
+  "com.tiktok.livestudio.cohost": {
+    "Name": "打开【直播连麦】",
+    "Tooltip": "打开【直播连麦】"
+  },
+  "com.tiktok.livestudio.treasurebox": {
+    "Name": "打开【宝箱】",
+    "Tooltip": "打开【宝箱】"
+  },
+  "com.tiktok.livestudio.playtogether": {
+    "Name": "打开【一起玩】",
+    "Tooltip": "打开【一起玩】"
+  },
+  "com.tiktok.livestudio.guessgame": {
+    "Name": "打开【竞猜】",
+    "Tooltip": "打开【竞猜】"
+  },
+  "com.tiktok.livestudio.goodybag": {
+    "Name": "打开【福袋】",
+    "Tooltip": "打开【福袋】"
+  },
+  "com.tiktok.livestudio.multiguest": {
+    "Name": "打开【嘉宾连麦】",
+    "Tooltip": "打开【嘉宾连麦】"
+  },
+  "com.tiktok.livestudio.team": {
+    "Name": "打开【主播团队】",
+    "Tooltip": "打开【主播团队】"
+  },
+  "com.tiktok.livestudio.livegoal": {
+    "Name": "打开【直播目标】",
+    "Tooltip": "打开【直播目标】"
+  },
+  "com.tiktok.livestudio.volumedial": {
+    "Name": "VolumeDial1",
+    "Tooltip": "VolumeDial Action"
+  },
+  "com.tiktok.livestudio.vibe": {
+    "Name": "动态特效",
+    "Tooltip": "动态特效"
+  }
+}

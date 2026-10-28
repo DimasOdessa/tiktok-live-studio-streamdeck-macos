@@ -1,0 +1,126 @@
+{
+  "Name": "TikTok LIVE Studio (macOS)",
+  "Description": "Unofficial macOS adaptation of the TikTok LIVE Studio Stream Deck plugin 1.1.5.",
+  "Author": "TikTok LIVE Studio",
+  "Category": "TikTok LIVE Studio (macOS)",
+  "com.tiktok.livestudio.scene": {
+    "Name": "Switch scene",
+    "Tooltip": "Switch scene"
+  },
+  "com.tiktok.livestudio.source": {
+    "Name": "Show / hide source",
+    "Tooltip": "Show / hide source"
+  },
+  "com.tiktok.livestudio.livestartend": {
+    "Name": "Go / end LIVE",
+    "Tooltip": "Go / end LIVE"
+  },
+  "com.tiktok.livestudio.audio": {
+    "Name": "Mute / unmute audio output",
+    "Tooltip": "Mute / unmute audio output"
+  },
+  "com.tiktok.livestudio.mic": {
+    "Name": "Mute / unmute microphone",
+    "Tooltip": "Mute / unmute microphone"
+  },
+  "com.tiktok.livestudio.recording": {
+    "Name": "Start / stop local recording",
+    "Tooltip": "Start / stop local recording"
+  },
+  "com.tiktok.livestudio.livepauseresume": {
+    "Name": "Pause / resume LIVE",
+    "Tooltip": "Pause / resume LIVE"
+  },
+  "com.tiktok.livestudio.highlight": {
+    "Name": "Highlight this moment",
+    "Tooltip": "Highlight this moment"
+  },
+  "com.tiktok.livestudio.filter": {
+    "Name": "Audio effect template on/off",
+    "Tooltip": "Audio effect template on/off"
+  },
+  "com.tiktok.livestudio.equalizer": {
+    "Name": "Equalizer on/off",
+    "Tooltip": "Equalizer on/off"
+  },
+  "com.tiktok.livestudio.reverberation": {
+    "Name": "Reverb on/off ",
+    "Tooltip": "Reverb on/off "
+  },
+  "com.tiktok.livestudio.gamepad": {
+    "Name": "Open \"Game Rewards\"",
+    "Tooltip": "Open \"Game Rewards\""
+  },
+  "com.tiktok.livestudio.vote": {
+    "Name": "Open \"Poll & Gift vote\"",
+    "Tooltip": "Open \"Poll & Gift vote\""
+  },
+  "com.tiktok.livestudio.promote": {
+    "Name": "Open \"Promote\"",
+    "Tooltip": "Open \"Promote\""
+  },
+  "com.tiktok.livestudio.sayhi": {
+    "Name": "Say hi to viewers",
+    "Tooltip": "Say hi to viewers"
+  },
+  "com.tiktok.livestudio.soundeffect": {
+    "Name": "Play sound effect",
+    "Tooltip": "Play sound effect"
+  },
+  "com.tiktok.livestudio.audiofilter": {
+    "Name": "Turn on / off audio effect",
+    "Tooltip": "Turn on / off audio effect"
+  },
+  "com.tiktok.livestudio.cameraeffects": {
+    "Name": "Turn on / off camera effect",
+    "Tooltip": "Turn on / off camera effect"
+  },
+  "com.tiktok.livestudio.audiocontrol": {
+    "Name": "Adjust audio output volume",
+    "Tooltip": "Adjust audio output volume"
+  },
+  "com.tiktok.livestudio.miccontrol": {
+    "Name": "Adjust microphone volume",
+    "Tooltip": "Adjust microphone volume"
+  },
+  "com.tiktok.livestudio.cohost": {
+    "Name": "Open \"Co-host\"",
+    "Tooltip": "Open \"Co-host\""
+  },
+  "com.tiktok.livestudio.treasurebox": {
+    "Name": "Open \"Treasure Box\"",
+    "Tooltip": "Open \"Treasure Box\""
+  },
+  "com.tiktok.livestudio.playtogether": {
+    "Name": "Open \"Play Together\"",
+    "Tooltip": "Open \"Play Together\""
+  },
+  "com.tiktok.livestudio.guessgame": {
+    "Name": "Open \"Guessing game\"",
+    "Tooltip": "Open \"Guessing game\""
+  },
+  "com.tiktok.livestudio.goodybag": {
+    "Name": "Open \"Goody Bag\"",
+    "Tooltip": "Open \"Goody Bag\""
+  },
+  "com.tiktok.livestudio.multiguest": {
+    "Name": "Open \"Multi-guest\"",
+    "Tooltip": "Open \"Multi-guest\""
+  },
+  "com.tiktok.livestudio.team": {
+    "Name": "Open \"Team\"",
+    "Tooltip": "Open \"Team\""
+  },
+  "com.tiktok.livestudio.livegoal": {
+    "Name": "Open \"LIVE goal\"",
+    "Tooltip": "Open \"LIVE goal\""
+  },
+  "com.tiktok.livestudio.volumedial": {
+    "Name": "VolumeDial1",
+    "Tooltip": "VolumeDial Action"
+  },
+  "com.tiktok.livestudio.vibe": {
+    "Name": "Dynamic effects",
+    "Tooltip": "Dynamic effects"
+  }
+}

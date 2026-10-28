@@ -1,0 +1,126 @@
+{
+  "Name": "TikTok LIVE Studio (macOS)",
+  "Description": "Unofficial macOS adaptation of the TikTok LIVE Studio Stream Deck plugin 1.1.5.",
+  "Author": "TikTok LIVE Studio",
+  "Category": "TikTok LIVE Studio (macOS)",
+  "com.tiktok.livestudio.scene": {
+    "Name": "シーンを切り替える",
+    "Tooltip": "シーンを切り替える"
+  },
+  "com.tiktok.livestudio.source": {
+    "Name": "ソースを表示/非表示",
+    "Tooltip": "ソースを表示/非表示"
+  },
+  "com.tiktok.livestudio.livestartend": {
+    "Name": "LIVEを開始/終了",
+    "Tooltip": "LIVEを開始/終了"
+  },
+  "com.tiktok.livestudio.audio": {
+    "Name": "オーディオ出力をミュート/ミュート解除",
+    "Tooltip": "オーディオ出力をミュート/ミュート解除"
+  },
+  "com.tiktok.livestudio.mic": {
+    "Name": "マイクをミュート/ミュート解除",
+    "Tooltip": "マイクをミュート/ミュート解除"
+  },
+  "com.tiktok.livestudio.recording": {
+    "Name": "ローカルレコーディングを開始/停止",
+    "Tooltip": "ローカルレコーディングを開始/停止"
+  },
+  "com.tiktok.livestudio.livepauseresume": {
+    "Name": "LIVEを一時停止/再開",
+    "Tooltip": "LIVEを一時停止/再開"
+  },
+  "com.tiktok.livestudio.highlight": {
+    "Name": "この瞬間をハイライトする",
+    "Tooltip": "この瞬間をハイライトする"
+  },
+  "com.tiktok.livestudio.filter": {
+    "Name": "オーディオエフェクトテンプレートオン/オフ",
+    "Tooltip": "オーディオエフェクトテンプレートオン/オフ"
+  },
+  "com.tiktok.livestudio.equalizer": {
+    "Name": "イコライザーオン/オフ",
+    "Tooltip": "イコライザーオン/オフ"
+  },
+  "com.tiktok.livestudio.reverberation": {
+    "Name": "リバーブオン/オフ",
+    "Tooltip": "リバーブオン/オフ"
+  },
+  "com.tiktok.livestudio.gamepad": {
+    "Name": "「ゲーム特典」を開く",
+    "Tooltip": "「ゲーム特典」を開く"
+  },
+  "com.tiktok.livestudio.vote": {
+    "Name": "「投票とギフト投票」を開く",
+    "Tooltip": "「投票とギフト投票」を開く"
+  },
+  "com.tiktok.livestudio.promote": {
+    "Name": "「プロモート」を開く",
+    "Tooltip": "「プロモート」を開く"
+  },
+  "com.tiktok.livestudio.sayhi": {
+    "Name": "視聴者にあいさつ",
+    "Tooltip": "視聴者にあいさつ"
+  },
+  "com.tiktok.livestudio.soundeffect": {
+    "Name": "サウンドエフェクトを再生",
+    "Tooltip": "サウンドエフェクトを再生"
+  },
+  "com.tiktok.livestudio.audiofilter": {
+    "Name": "オーディオエフェクトをオン/オフ",
+    "Tooltip": "オーディオエフェクトをオン/オフ"
+  },
+  "com.tiktok.livestudio.cameraeffects": {
+    "Name": "カメラエフェクトをオン/オフ",
+    "Tooltip": "カメラエフェクトをオン/オフ"
+  },
+  "com.tiktok.livestudio.audiocontrol": {
+    "Name": "オーディオ出力の音量を調整",
+    "Tooltip": "オーディオ出力の音量を調整"
+  },
+  "com.tiktok.livestudio.miccontrol": {
+    "Name": "マイクの音量を調整",
+    "Tooltip": "マイクの音量を調整"
+  },
+  "com.tiktok.livestudio.cohost": {
+    "Name": "「コラボ配信者」を開く",
+    "Tooltip": "「コラボ配信者」を開く"
+  },
+  "com.tiktok.livestudio.treasurebox": {
+    "Name": "「宝箱」を開く",
+    "Tooltip": "「宝箱」を開く"
+  },
+  "com.tiktok.livestudio.playtogether": {
+    "Name": "「一緒にプレイ」を開く",
+    "Tooltip": "「一緒にプレイ」を開く"
+  },
+  "com.tiktok.livestudio.guessgame": {
+    "Name": "「予想ゲーム」を開く",
+    "Tooltip": "「予想ゲーム」を開く"
+  },
+  "com.tiktok.livestudio.goodybag": {
+    "Name": "「お楽しみ袋」を開く",
+    "Tooltip": "「お楽しみ袋」を開く"
+  },
+  "com.tiktok.livestudio.multiguest": {
+    "Name": "「マルチゲスト」を開く",
+    "Tooltip": "「マルチゲスト」を開く"
+  },
+  "com.tiktok.livestudio.team": {
+    "Name": "「クリエイターチーム」を開く",
+    "Tooltip": "「クリエイターチーム」を開く"
+  },
+  "com.tiktok.livestudio.livegoal": {
+    "Name": "「LIVEゴール」を開く",
+    "Tooltip": "「LIVEゴール」を開く"
+  },
+  "com.tiktok.livestudio.volumedial": {
+    "Name": "VolumeDial",
+    "Tooltip": "VolumeDial Action"
+  },
+  "com.tiktok.livestudio.vibe": {
+    "Name": "ダイナミックエフェクト",
+    "Tooltip": "ダイナミックエフェクト"
+  }
+}

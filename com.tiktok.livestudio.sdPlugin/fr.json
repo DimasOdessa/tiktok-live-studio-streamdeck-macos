@@ -1,0 +1,126 @@
+{
+  "Name": "TikTok LIVE Studio (macOS)",
+  "Description": "Unofficial macOS adaptation of the TikTok LIVE Studio Stream Deck plugin 1.1.5.",
+  "Author": "TikTok LIVE Studio",
+  "Category": "TikTok LIVE Studio (macOS)",
+  "com.tiktok.livestudio.scene": {
+    "Name": "Changer de scène",
+    "Tooltip": "Changer de scène"
+  },
+  "com.tiktok.livestudio.source": {
+    "Name": "Afficher / masquer la source",
+    "Tooltip": "Afficher / masquer la source"
+  },
+  "com.tiktok.livestudio.livestartend": {
+    "Name": "Passer en / terminer le LIVE",
+    "Tooltip": "Passer en / terminer le LIVE"
+  },
+  "com.tiktok.livestudio.audio": {
+    "Name": "Mettre en sourdine / réactiver la sortie audio",
+    "Tooltip": "Mettre en sourdine / réactiver la sortie audio"
+  },
+  "com.tiktok.livestudio.mic": {
+    "Name": "Mettre en sourdine / réactiver le microphone",
+    "Tooltip": "Mettre en sourdine / réactiver le microphone"
+  },
+  "com.tiktok.livestudio.recording": {
+    "Name": "Démarrer / arrêter l'enregistrement local",
+    "Tooltip": "Démarrer / arrêter l'enregistrement local"
+  },
+  "com.tiktok.livestudio.livepauseresume": {
+    "Name": "Mettre en pause / reprendre le LIVE",
+    "Tooltip": "Mettre en pause / reprendre le LIVE"
+  },
+  "com.tiktok.livestudio.highlight": {
+    "Name": "Enregistrer dans les temps forts",
+    "Tooltip": "Enregistrer dans les temps forts"
+  },
+  "com.tiktok.livestudio.filter": {
+    "Name": "Modèle d'effets audio activé/désactivé",
+    "Tooltip": "Modèle d'effets audio activé/désactivé"
+  },
+  "com.tiktok.livestudio.equalizer": {
+    "Name": "Égaliseur activé/désactivé",
+    "Tooltip": "Égaliseur activé/désactivé"
+  },
+  "com.tiktok.livestudio.reverberation": {
+    "Name": "Réverbération activée/désactivée",
+    "Tooltip": "Réverbération activée/désactivée"
+  },
+  "com.tiktok.livestudio.gamepad": {
+    "Name": "Ouvrir « Récompenses de jeu »",
+    "Tooltip": "Ouvrir « Récompenses de jeu »"
+  },
+  "com.tiktok.livestudio.vote": {
+    "Name": "Ouvrir « Sondage et vote avec Cadeau »",
+    "Tooltip": "Ouvrir « Sondage et vote avec Cadeau »"
+  },
+  "com.tiktok.livestudio.promote": {
+    "Name": "Ouvrir « Promotion »",
+    "Tooltip": "Ouvrir « Promotion »"
+  },
+  "com.tiktok.livestudio.sayhi": {
+    "Name": "Saluer tes spectateur(trice)s",
+    "Tooltip": "Saluer tes spectateur(trice)s"
+  },
+  "com.tiktok.livestudio.soundeffect": {
+    "Name": "Lire un effet sonore",
+    "Tooltip": "Lire un effet sonore"
+  },
+  "com.tiktok.livestudio.audiofilter": {
+    "Name": "Activer / désactiver l'effet audio",
+    "Tooltip": "Activer / désactiver l'effet audio"
+  },
+  "com.tiktok.livestudio.cameraeffects": {
+    "Name": "Activer / désactiver l'effet d'appareil photo",
+    "Tooltip": "Activer / désactiver l'effet d'appareil photo"
+  },
+  "com.tiktok.livestudio.audiocontrol": {
+    "Name": "Régler le volume de la sortie audio",
+    "Tooltip": "Régler le volume de la sortie audio"
+  },
+  "com.tiktok.livestudio.miccontrol": {
+    "Name": "Régler le volume du microphone",
+    "Tooltip": "Régler le volume du microphone"
+  },
+  "com.tiktok.livestudio.cohost": {
+    "Name": "Ouvrir « Cohébergement »",
+    "Tooltip": "Ouvrir « Cohébergement »"
+  },
+  "com.tiktok.livestudio.treasurebox": {
+    "Name": "Ouvrir « Coffre au trésor »",
+    "Tooltip": "Ouvrir « Coffre au trésor »"
+  },
+  "com.tiktok.livestudio.playtogether": {
+    "Name": "Ouvrir « Jouons ensemble »",
+    "Tooltip": "Ouvrir « Jouons ensemble »"
+  },
+  "com.tiktok.livestudio.guessgame": {
+    "Name": "Ouvrir « Jeu de devinette »",
+    "Tooltip": "Ouvrir « Jeu de devinette »"
+  },
+  "com.tiktok.livestudio.goodybag": {
+    "Name": "Ouvrir « Sac-cadeau »",
+    "Tooltip": "Ouvrir « Sac-cadeau »"
+  },
+  "com.tiktok.livestudio.multiguest": {
+    "Name": "Ouvrir « Multi-invité »",
+    "Tooltip": "Ouvrir « Multi-invité »"
+  },
+  "com.tiktok.livestudio.team": {
+    "Name": "Ouvrir « Équipe »",
+    "Tooltip": "Ouvrir « Équipe »"
+  },
+  "com.tiktok.livestudio.livegoal": {
+    "Name": "Ouvrir « Objectif de LIVE »",
+    "Tooltip": "Ouvrir « Objectif de LIVE »"
+  },
+  "com.tiktok.livestudio.volumedial": {
+    "Name": "VolumeDial",
+    "Tooltip": "VolumeDial Action"
+  },
+  "com.tiktok.livestudio.vibe": {
+    "Name": "Effets dynamiques",
+    "Tooltip": "Effets dynamiques"
+  }
+}
